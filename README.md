@@ -1,11 +1,11 @@
 # What is this?
 
-Just me making a discord bot because i thought it would be fun. Looking to make a bot to harass and meme with my friends.
+Looking to make a bot to harass and meme with my friends, still under heavy development. 
 
 ## Some important stuff for development
 
-[Discord Developer Portal](https://discord.com/developers/applications)
-[Twitter API](https://www.tweepy.org/)
+- [Discord Developer Portal](https://discord.com/developers/applications)
+- [Twitter API](https://www.tweepy.org/)
 
 ## TODO:
 
