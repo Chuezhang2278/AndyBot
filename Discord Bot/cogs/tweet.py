@@ -14,8 +14,6 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-current = None
-
 #===========================================================================#
 
 class Tweeting(commands.Cog):
@@ -32,15 +30,6 @@ class Tweeting(commands.Cog):
         status_obj = timeline[0]
         status_obj_id = status_obj.id
         await ctx.send(api.get_status(status_obj_id).text)
-    
-    @commands.command(aliases = ['sub'])
-    async def subscribe(self,ctx,args):
-        try:
-            user = api.get_user(args)
-            current = api.get_user(args).id
-            await ctx.send(f"Now subscribed to {user.screen_name}\n{user.profile_image_url} ")
-        except:
-            await ctx.send("Couldnt find user specified")
 
     @commands.command()
     async def lookup(self,ctx,args):
@@ -55,8 +44,8 @@ class Tweeting(commands.Cog):
         await ctx.send(f'```\nQuery Similar Results\n ==========\n{temp}```')
 
     @commands.command(aliases = ['stream'])
-    async def LiveFeed(self,ctx):
-        
+    async def LiveFeed(self,ctx,arg):
+
         class MyStreamListener(tweepy.StreamListener):
             
             def on_status(self, status):
@@ -66,10 +55,14 @@ class Tweeting(commands.Cog):
                 if status_code == 420:
                     #returning False in on_error disconnects the stream
                     return False
-
-        listener = MyStreamListener()
-        stream = tweepy.Stream(auth = auth, listener = listener)
-        stream.filter(follow = ['3050330837'], is_async=True)
+        try:
+            user = api.get_user(arg)
+            await ctx.send(f"Now streaming live feed of {user.screen_name}\n{user.profile_image_url} ")
+            listener = MyStreamListener()
+            stream = tweepy.Stream(auth = auth, listener = listener)
+            stream.filter(follow = [str(user.id)], is_async=True)
+        except:
+            await ctx.send("Couldnt find user specified")
 
 def setup(tweet):
     tweet.add_cog(Tweeting(tweet))
