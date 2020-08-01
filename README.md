@@ -2,6 +2,12 @@
 
 Looking to make a bot to harass and meme with my friends, still under heavy development. 
 
+## What it got?
+
+- Gacha simulator for Arknights
+- Basic twitter commands
+- Basic discord manipulation 
+
 ## Some important stuff for development
 
 - [Discord Developer Portal](https://discord.com/developers/applications) - You need to get token from here and also -pip install discord
