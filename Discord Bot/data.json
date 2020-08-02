@@ -1,0 +1,100 @@
+{
+    "Units": [
+    {
+        "Name": "lava",
+        "Rating" : 3
+    },
+    {
+        "Name": "hibiscus",
+        "Rating" : 3
+    },
+    {
+        "Name": "spot",
+        "Rating" : 3
+    },
+    {
+        "Name": "beagle",
+        "Rating" : 3
+    },
+    {
+        "Name": "steward",
+        "Rating" : 3
+    },
+    {
+        "Name": "plume",
+        "Rating" : 3
+    },
+    {
+        "Name": "courier",
+        "Rating" : 4
+    },
+    {
+        "Name": "grey",
+        "Rating" : 4
+    },
+    {
+        "Name": "haze",
+        "Rating" : 4
+    },
+    {
+        "Name": "sussurro",
+        "Rating" : 4
+    },
+    {
+        "Name": "gummy",
+        "Rating" : 4
+    },
+    {
+        "Name": "gavial",
+        "Rating" : 4
+    },
+    {
+        "Name": "snowsant",
+        "Rating" : 5
+    },
+    {
+        "Name": "FEater",
+        "Rating" : 5
+    },
+    {
+        "Name": "sora",
+        "Rating" : 5
+    },
+    {
+        "Name": "skyfire",
+        "Rating" : 5
+    },
+    {
+        "Name": "mayer",
+        "Rating" : 5
+    },
+    {
+        "Name": "silence",
+        "Rating" : 5
+    },
+    {
+        "Name": "ifrit",
+        "Rating" : 6
+    },
+    {
+        "Name": "eyja",
+        "Rating" : 6
+    },
+    {
+        "Name": "angelina",
+        "Rating" : 6
+    },
+    {
+        "Name": "saria",
+        "Rating" : 6
+    },
+    {
+        "Name": "ch'en",
+        "Rating" : 6
+    },
+    {
+        "Name": "nian",
+        "Rating" : 6
+    }
+            ]
+}
