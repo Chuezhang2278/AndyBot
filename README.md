@@ -31,3 +31,9 @@ Decided to learn a bit of json and things became a whole lot simpler and also fa
 #### Added
 - Json file uploaded and loading json file instead
 - Made a class file for organization purposes (ArkUnits.py)
+
+### 8/04
+
+Discovered a thing
+
+- WE GOT EMBEDDING NOW, much cleaner texts 

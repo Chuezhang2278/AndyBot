@@ -39,5 +39,21 @@ class Cogs(commands.Cog):
     async def toot(self,ctx):
         await ctx.send('https://cdn.betterttv.net/emote/5e6d656e8c0f5c3723a92908/3x')
 
+    @commands.command()
+    async def embedtemplate(self, ctx):
+        embed = discord.Embed(
+            title = 'Title',
+            description = 'Description',
+            colour = discord.Color.red(),
+            url = "https://www.google.com"
+        )
+        embed.set_thumbnail(url='https://cdn.betterttv.net/emote/5e6d656e8c0f5c3723a92908/3x')
+        embed.add_field(name='Text', value = 'Field Value', inline=True)
+        embed.add_field(name='Text2', value = 'Field Value', inline=False)
+        embed.set_author(name=self.client.user.name, icon_url=self.client.user.avatar_url)
+        embed.set_footer(text = ctx.author.name, icon_url=ctx.author.avatar_url)
+
+        await ctx.send(embed=embed)
+
 def setup(client):
     client.add_cog(Cogs(client))
