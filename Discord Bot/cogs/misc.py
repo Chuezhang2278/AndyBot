@@ -26,6 +26,14 @@ class Cogs(commands.Cog):
                     'team killing']
         await ctx.send(f'{random.choice(responses)}')
 
+    @commands.command()
+    async def boom(self,ctx, args):
+        responses = ['go boom',
+                     'no go boom',
+                     'go sideways']
+        
+        await ctx.send(f'{args} {random.choice(responses)}')
+
     @commands.command(aliases=['8ball','test'])
     async def ball(self, ctx, *, args):
         responses = ['Small PP energy',
@@ -34,7 +42,7 @@ class Cogs(commands.Cog):
                     '3head',
                     'nohead']
         await ctx.send(f'{random.choice(responses)}')
-    
+
     @commands.command()
     async def toot(self,ctx):
         await ctx.send('https://cdn.betterttv.net/emote/5e6d656e8c0f5c3723a92908/3x')

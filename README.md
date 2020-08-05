@@ -10,8 +10,20 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 
 ## Some important stuff for development
 
-- [Discord Developer Portal](https://discord.com/developers/applications) - You need to get token from here and also -pip install discord
+- [Discord Developer Portal](https://discord.com/developers/applications) 
 - [Twitter API](https://www.tweepy.org/) - Grab your auth keys for twitter [here](https://developer.twitter.com/en)
+
+## Some requirements
+
+template = pip install "blah"
+
+- [youtube_dl](https://pypi.org/project/youtube_dl/)
+- [tweepy](https://pypi.org/project/tweepy/)
+- [discord.py](https://pypi.org/project/discord.py/)
+
+Obviously you'll also need to download discord itself
+
+- [discord](https://discord.com/)
 
 ## Log (as of 7/31)
 
@@ -37,3 +49,9 @@ Decided to learn a bit of json and things became a whole lot simpler and also fa
 Discovered a thing
 
 - WE GOT EMBEDDING NOW, much cleaner texts 
+
+### 8/05
+
+Bot is now up 24/7, done free using [Heroku](https://www.youtube.com/watch?v=BPvg9bndP1U)
+
+[Invite Link](https://discord.com/oauth2/authorize?client_id=734861397627764856&scope=bot)
