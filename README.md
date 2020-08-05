@@ -36,13 +36,13 @@ Obviously you'll also need to download discord itself
 
 Decided to learn a bit of json and things became a whole lot simpler and also familiarized myself more with python dicts. 
 
-#### Removed
-- Removed Gacha folder containing text files 
-- txt file read methods
-- Some test files
-#### Added
-- Json file uploaded and loading json file instead
-- Made a class file for organization purposes (ArkUnits.py)
+- Removed
+  - Removed Gacha folder containing text files 
+  - txt file read methods
+  - Some test files
+- Added
+  - Json file uploaded and loading json file instead
+  - Made a class file for organization purposes (ArkUnits.py)
 
 ### 8/04
 
