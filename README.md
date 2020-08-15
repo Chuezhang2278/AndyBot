@@ -67,4 +67,5 @@ Decided to integrate Riot API with my discord bot. Many annoyances using this AP
 
 - Added
 '$find (arg)' command that finds user specified and prints out information regarding latest match played
+ 
  ![Text](https://i.imgur.com/Pif5vVL.png)
