@@ -27,30 +27,30 @@ Obviously you'll also need to download discord itself
 
 ## Log (as of 7/31)
 
-### 7/31
+### <ins>7/31</ins>
 
 - Been playing [Arknights](https://www.arknights.global/) recently so i decided to make a bot for the **Gacha System**, all units not in the pool but it works well enough. 
   - **What is this Gacha System?** - Basically a lottery system in a game where there is a different set of items that you try to get using in game currency. Percentages are low and its quite easy to indulge yourself into these type of things if you are a gamer.
   
-### 8/02
+### <ins>8/02</ins>
 
 Decided to learn a bit of json and things became a whole lot simpler and also familiarized myself more with python dicts. 
 
-#### Removed
-- Removed Gacha folder containing text files 
-- txt file read methods
-- Some test files
-#### Added
-- Json file uploaded and loading json file instead
-- Made a class file for organization purposes (ArkUnits.py)
+- Removed
+  - Removed Gacha folder containing text files 
+  - txt file read methods
+  - Some test files
+- Added
+  - Json file uploaded and loading json file instead
+  - Made a class file for organization purposes (ArkUnits.py)
 
-### 8/04
+### <ins>8/04</ins>
 
 Discovered a thing
 
 - WE GOT EMBEDDING NOW, much cleaner texts 
 
-### 8/05
+### <ins>8/05</ins>
 
 Bot is now up 24/7, done free using [Heroku](https://www.youtube.com/watch?v=BPvg9bndP1U)
 
