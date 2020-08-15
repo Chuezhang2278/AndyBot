@@ -16,11 +16,12 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 
 - [Discord Developer Portal](https://discord.com/developers/applications) 
 - [Twitter API](https://www.tweepy.org/) - Grab your auth keys for twitter [here](https://developer.twitter.com/en)
+- [Rito Developer Portal](https://developer.riotgames.com/)
 
 ## Some requirements
 
 template = pip install "blah"
-- [riotwatcher](https://developer.riotgames.com/)
+- [riotwatcher](https://pypi.org/project/riotwatcher/1.3/)
 - [youtube_dl](https://pypi.org/project/youtube_dl/)
 - [tweepy](https://pypi.org/project/tweepy/)
 - [discord.py](https://pypi.org/project/discord.py/)
