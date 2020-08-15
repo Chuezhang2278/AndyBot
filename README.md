@@ -20,7 +20,7 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 ## Some requirements
 
 template = pip install "blah"
-
+- [riotwatcher](https://developer.riotgames.com/)
 - [youtube_dl](https://pypi.org/project/youtube_dl/)
 - [tweepy](https://pypi.org/project/tweepy/)
 - [discord.py](https://pypi.org/project/discord.py/)
