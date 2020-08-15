@@ -27,7 +27,7 @@ class Cogs(commands.Cog):
         await ctx.send(f'{random.choice(responses)}')
 
     @commands.command()
-    async def boom(self,ctx, args):
+    async def boom(self,ctx, *, args):
         responses = ['go boom',
                      'no go boom',
                      'go sideways']
