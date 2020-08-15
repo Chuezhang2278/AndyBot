@@ -55,3 +55,11 @@ Discovered a thing
 Bot is now up 24/7, done free using [Heroku](https://www.youtube.com/watch?v=BPvg9bndP1U)
 
 [Invite Link](https://discord.com/oauth2/authorize?client_id=734861397627764856&scope=bot)
+
+### <ins>8/14</ins>
+
+Decided to integrate Riot API with my discord bot. Many annoyances using this API because i suck at using it.
+
+-Added
+'$find <arg>' - finds user and prints out information regarding latest match played (only items and username atm)
+ Format: ![Text](https://i.imgur.com/Pif5vVL.png)
