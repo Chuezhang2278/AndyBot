@@ -4,9 +4,12 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 
 ## What it got?
 
-- Gacha simulator for Arknights
-- Basic twitter commands
-- Basic discord manipulation 
+- Seveal funky commands using apis listed
+  - RiotAPI
+  - Tweepy
+  - YT_DL(nothing for this atm)
+- Simple gacha system for the mobile phone game "Arknights"
+- Basic discord manipulation commands
 
 ## Some important stuff for development
 
