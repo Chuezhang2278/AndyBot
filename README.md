@@ -63,6 +63,6 @@ Bot is now up 24/7, done free using [Heroku](https://www.youtube.com/watch?v=BPv
 
 Decided to integrate Riot API with my discord bot. Many annoyances using this API because i suck at using it.
 
--Added
-'$find <arg>' - finds user and prints out information regarding latest match played (only items and username atm)
- Format: ![Text](https://i.imgur.com/Pif5vVL.png)
+- Added
+'$find (arg)' command that finds user specified and prints out information regarding latest match played
+ ![Text](https://i.imgur.com/Pif5vVL.png)
