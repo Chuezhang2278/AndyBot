@@ -75,3 +75,12 @@ Decided to integrate Riot API with my discord bot. Many annoyances using this AP
 Working at 5 am is the best way to get things done. Big upgrade from item text to item icon which took an un-holy amount of time so if you want to(whoever is looking through this is interested in working with riotAPI), i highly recommend you just steal my itemlist.json file for icons. I think i died on the inside a little doing this but it was worth it.
  
 ![Text](https://i.imgur.com/uJtAWHX.png)
+
+### <ins>8/18</ins>
+
+Further developed $find command to be more visually appealing but ran into an interesting issue that i currently have no knowledge on how to fix.
+
+- Bug
+Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
+
+![Text](https://i.imgur.com/1dh8FMv.png)
