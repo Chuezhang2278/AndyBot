@@ -69,3 +69,9 @@ Decided to integrate Riot API with my discord bot. Many annoyances using this AP
 '$find (arg)' command that finds user specified and prints out information regarding latest match played
  
  ![Text](https://i.imgur.com/Pif5vVL.png)
+
+### <ins>8/18</ins>
+ 
+Working at 5 am is the best way to get things done. Big upgrade from item text to item icon which took an un-holy amount of time so if you want to(whoever is looking through this is interested in working with riotAPI), i highly recommend you just steal my itemlist.json file for icons. I think i died on the inside a little doing this but it was worth it.
+ 
+![Text](https://i.imgur.com/uJtAWHX.png)
