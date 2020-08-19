@@ -80,7 +80,7 @@ Working at 5 am is the best way to get things done. Big upgrade from item text t
  
 ![Text](https://i.imgur.com/uJtAWHX.png)
 
-#### PART 2 OF 8/18
+### PART 2 OF 8/18
 
 Further developed $find command to be more visually appealing but ran into an interesting issue that i currently have no knowledge on how to fix.
 
