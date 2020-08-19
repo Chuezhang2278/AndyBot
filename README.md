@@ -84,7 +84,7 @@ Working at 5 am is the best way to get things done. Big upgrade from item text t
 
 Further developed $find command to be more visually appealing but ran into an interesting issue that i currently have no knowledge on how to fix.
 
-- Bug
-Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
+#### Bug
+- Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
 
 ![Text](https://i.imgur.com/1dh8FMv.png)
