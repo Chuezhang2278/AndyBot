@@ -88,3 +88,9 @@ Further developed $find command to be more visually appealing but ran into an in
 - Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
 
 ![Text](https://i.imgur.com/1dh8FMv.png)
+
+### <ins>8/20</ins>
+
+Fixed the stupid bug. Turns out embedded messages have a 1k word limit and my messages were over the 1k limit. I fixed it by shortening my emotes names and that fixed everything. Also added KDA, will add champion images, CS, Gold, Mastery, Rank, Summoner spells over time.
+
+![Text](https://i.imgur.com/xV0KsJI.png)
