@@ -75,16 +75,18 @@ class League(commands.Cog):
             except:
                 participants_row['item5'] = ""
 
-            
             g = match_detail['gameDuration']
             minutes = (g//60)
             seconds = (g % 60)
             duration = str(minutes) + " Minutes " + str(seconds) + " Seconds "
+
             participants_row['game duration'] = duration
-            
-            #participants_row['total Minions Killed'] = row['stats']['totalMinionsKilled']
             participants_row['team'] = row['teamId']
             participants_row['Summoner Name'] = temp[i]
+            participants_row['kills'] = row['stats']['kills']
+            participants_row['deaths'] = row['stats']['deaths']
+            participants_row['assists'] = row['stats']['assists']
+
             participants.append(participants_row)
 
             i += 1
@@ -92,25 +94,40 @@ class League(commands.Cog):
         temp = {}
         arr = dictName(participants,temp)
 
-        ArrBlue = []
-        ArrRed = []
+        ArrBlue, BlueName, BlueKill, ArrRed, RedName, RedKill = [],[],[],[],[],[]
 
         for i in temp:
             if(arr[str(i)]['team'] == 100):
-                ArrBlue.append(i + '\n' + str(arr[str(i)]['item0']) + str(arr[str(i)]['item1'])  + str(arr[str(i)]['item2'])  +  str(arr[str(i)]['item3']) + str(arr[str(i)]['item4']) + str(arr[str(i)]['item5']))
+                ArrBlue.append(str(arr[str(i)]['item0']) + str(arr[str(i)]['item1'])  + str(arr[str(i)]['item2'])  +  str(arr[str(i)]['item3']) + str(arr[str(i)]['item4']) + str(arr[str(i)]['item5']))
+                BlueName.append(str(i))
+                BlueKill.append(str(arr[str(i)]['kills']) + '\\' + str(arr[str(i)]['deaths']) + '\\' + str(arr[str(i)]['assists']))
             else:
-                ArrRed.append(i + '\n' + str(arr[str(i)]['item0']) + str(arr[str(i)]['item1'])  + str(arr[str(i)]['item2'])  +  str(arr[str(i)]['item3']) + str(arr[str(i)]['item4']) + str(arr[str(i)]['item5']))
+                ArrRed.append(str(arr[str(i)]['item0']) + str(arr[str(i)]['item1'])  + str(arr[str(i)]['item2'])  +  str(arr[str(i)]['item3']) + str(arr[str(i)]['item4']) + str(arr[str(i)]['item5']))
+                RedName.append(str(i))
+                RedKill.append(str(arr[str(i)]['kills']) + '\\' + str(arr[str(i)]['deaths']) + '\\' + str(arr[str(i)]['assists']))
 
+        Blue = '\n'.join(ArrBlue)
+        Red = '\n'.join(ArrRed)
+        BlueName ='\n'.join(BlueName)
+        RedName = '\n'.join(RedName)
+        BlueKill = '\n'.join(BlueKill)
+        RedKill = '\n'.join(RedKill)
 
-        ArrBlue = '\n'.join(ArrBlue)
-        ArrRed = '\n'.join(ArrRed)
+        print(Blue, '\n', Red)
 
         embed = discord.Embed(colour = discord.Color.blue())
-        embed.add_field(name='Blue side', value = ArrBlue, inline=True)
-        embed.add_field(name='VS', value = " | \n | \n | \n | \n | \n | \n | \n | \n | \n |", inline = True)
-        embed.add_field(name='Red side', value = ArrRed, inline=True)
         embed.set_author(name="Game Duration | " + temp[str(x)]['game duration'])
         embed.set_footer(text = ctx.author.name, icon_url=ctx.author.avatar_url)
+
+        embed.add_field(name='Blue Side', value = BlueName, inline = True)
+        embed.add_field(name='K/D/A', value = BlueKill, inline = True)
+        embed.add_field(name='Items', value = Blue, inline=True)
+
+        embed.add_field(name='VS', value = '\u200b' , inline = False)
+
+        embed.add_field(name='Red Side', value = RedName, inline = True)
+        embed.add_field(name='K/D/A', value = RedKill, inline = True)
+        embed.add_field(name='Items', value = Red, inline=True)
 
         await ctx.send(embed=embed)
     
