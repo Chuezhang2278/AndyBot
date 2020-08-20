@@ -12,10 +12,14 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 - Simple gacha system for the mobile phone game "Arknights"
 - Basic discord manipulation commands
 
+I am currently more invested in working with the RiotAPI at the moment because it is something i am a bit more familiar with and would like to learn more about since a lot of my friends play this game. Expect more from RiotAPI than the rest of the things listed
+
 ## Some important stuff for development
 
+If you want to run my code, you have to get your own auth keys from the links listed below
+
 - [Discord Developer Portal](https://discord.com/developers/applications) 
-- [Twitter API](https://www.tweepy.org/) - Grab your auth keys for twitter [here](https://developer.twitter.com/en)
+- [Twitter API](https://www.tweepy.org/) 
 - [Rito Developer Portal](https://developer.riotgames.com/)
 
 ## Some requirements
@@ -76,11 +80,11 @@ Working at 5 am is the best way to get things done. Big upgrade from item text t
  
 ![Text](https://i.imgur.com/uJtAWHX.png)
 
-### <ins>8/18</ins>
+### PART 2 OF 8/18
 
 Further developed $find command to be more visually appealing but ran into an interesting issue that i currently have no knowledge on how to fix.
 
-- Bug
-Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
+#### Bug
+- Certain users won't have their information displayed, for example myself (ign = desuuuuuuuuuu) but others will. I have to test more to figure out whats the issue with this 
 
 ![Text](https://i.imgur.com/1dh8FMv.png)
