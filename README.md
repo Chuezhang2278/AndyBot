@@ -76,7 +76,7 @@ Decided to integrate Riot API with my discord bot. Many annoyances using this AP
 
 ### <ins>8/18</ins>
  
-Working at 5 am is the best way to get things done. Big upgrade from item text to item icon which took an un-holy amount of time so if you want to(whoever is looking through this is interested in working with riotAPI), i highly recommend you just steal my itemlist.json file for icons. I think i died on the inside a little doing this but it was worth it.
+Working at 5 am is the best way to get things done. Big upgrade from item text to item icon which took an un-holy amount of time. I had to use many different discord servers to host different emotes, get every emotes raw text, throw onto json file for it to work. If you want my emote servers, just pop me a message at Chue#6969 and ill give you an invite link. You might also want my itemlist.json file to save yourself from the work
  
 ![Text](https://i.imgur.com/uJtAWHX.png)
 
