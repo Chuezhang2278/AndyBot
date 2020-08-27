@@ -8,7 +8,6 @@ Looking to make a bot to harass and meme with my friends, still under heavy deve
 - Seveal funky commands using apis listed
   - RiotAPI
   - Tweepy
-  - YT_DL(nothing for this atm)
 - Simple gacha system for the mobile phone game "Arknights"
 - Basic discord manipulation commands
 
