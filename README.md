@@ -1,6 +1,6 @@
 ## What is this?
 
-Looking to make a bot to harass and meme with my friends, still under heavy development. Bot is also up 24/7
+Looking to make a bot to harass and meme with my friends, still under heavy development. Bot is not up 24/7, FOR NOW
 > [Invite Link](https://discord.com/oauth2/authorize?client_id=734861397627764856&scope=bot)
 
 ## What it got?
